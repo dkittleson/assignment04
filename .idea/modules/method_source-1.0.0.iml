@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0" />
+    <orderEntry type="jdk" jdkName="ruby-2.5.1-p57 (2)" jdkType="RUBY_SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="diff-lcs (vbundled(1.4.4)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/diff-lcs-1.4.4/bin" />
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/diff-lcs-1.4.4/lib" />
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/diff-lcs-1.4.4/docs" />
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/diff-lcs-1.4.4/spec" />
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/diff-lcs-1.4.4/autotest" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/diff-lcs-1.4.4/bin" />
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/diff-lcs-1.4.4/lib" />
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/diff-lcs-1.4.4/docs" />
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/diff-lcs-1.4.4/spec" />
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/diff-lcs-1.4.4/autotest" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/diff-lcs-1.4.4/bin" />
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/diff-lcs-1.4.4/docs" />
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/diff-lcs-1.4.4/spec" />
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/diff-lcs-1.4.4/autotest" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rake (vbundled(0.9.6)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/rake-0.9.6/bin" />
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/rake-0.9.6/doc" />
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/rake-0.9.6/lib" />
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/rake-0.9.6/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/rake-0.9.6/bin" />
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/rake-0.9.6/doc" />
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/rake-0.9.6/lib" />
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/rake-0.9.6/test" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/rake-0.9.6/bin" />
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/rake-0.9.6/doc" />
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/rake-0.9.6/test" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rspec (vbundled(3.10.0)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/rspec-3.10.0/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/rspec-3.10.0/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rspec-core (vbundled(3.10.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/rspec-core-3.10.1/exe" />
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/rspec-core-3.10.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/rspec-core-3.10.1/exe" />
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/rspec-core-3.10.1/lib" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/rspec-core-3.10.1/exe" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rspec-expectations (vbundled(3.10.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/rspec-expectations-3.10.1/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/rspec-expectations-3.10.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rspec-mocks (vbundled(3.10.2)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/rspec-mocks-3.10.2/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/rspec-mocks-3.10.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rspec-support (vbundled(3.10.3)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/rspec-support-3.10.3/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../vendoe/bundle/ruby/2.5.0/gems/method_source-1.0.0/vendoe/bundle/ruby/2.5.0/gems/rspec-support-3.10.3/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.2.26, ruby-2.5.1-p57 (2)) [gem]" level="application" />
+  </component>
+  <component name="RakeTasksCache">
+    <option name="myRootTask">
+      <RakeTaskImpl id="rake">
+        <subtasks>
+          <RakeTaskImpl description="Remove any temporary products" fullCommand="clean" id="clean" />
+          <RakeTaskImpl description="Remove any generated file" fullCommand="clobber" id="clobber" />
+          <RakeTaskImpl description="Set up and run tests" fullCommand="default" id="default" />
+          <RakeTaskImpl description="build all platform gems at once" fullCommand="gems" id="gems" />
+          <RakeTaskImpl description="Build the gemspec file" fullCommand="gemspec" id="gemspec" />
+          <RakeTaskImpl description="build and push latest gems" fullCommand="pushgems" id="pushgems" />
+          <RakeTaskImpl description="reinstall gem" fullCommand="reinstall" id="reinstall" />
+          <RakeTaskImpl description="remove all platform gems" fullCommand="rmgems" id="rmgems" />
+          <RakeTaskImpl id="ruby">
+            <subtasks>
+              <RakeTaskImpl description="Remove package products" fullCommand="ruby:clobber_package" id="clobber_package" />
+              <RakeTaskImpl description="Build the gem file method_source-1.0.0.gem" fullCommand="ruby:gem" id="gem" />
+              <RakeTaskImpl description="Generate gemspec file" fullCommand="ruby:gemspec" id="gemspec" />
+              <RakeTaskImpl description="Build all the packages" fullCommand="ruby:package" id="package" />
+              <RakeTaskImpl description="Force a rebuild of the package files" fullCommand="ruby:repackage" id="repackage" />
+              <RakeTaskImpl description="" fullCommand="ruby:clobber" id="clobber" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="Run RSpec code examples" fullCommand="spec" id="spec" />
+          <RakeTaskImpl description="" fullCommand="pkg" id="pkg" />
+          <RakeTaskImpl description="" fullCommand="pkg/method_source-1.0.0" id="pkg/method_source-1.0.0" />
+          <RakeTaskImpl description="" fullCommand="pkg/method_source-1.0.0.gem" id="pkg/method_source-1.0.0.gem" />
+        </subtasks>
+      </RakeTaskImpl>
+    </option>
+  </component>
+  <component name="RubyModuleProperties">
+    <option name="autoCreated" value="true" />
+  </component>
+</module>
