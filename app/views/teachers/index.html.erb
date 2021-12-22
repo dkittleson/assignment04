@@ -2,34 +2,32 @@
 
 <h1>Teachers</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th>First name</th>
-      <th>Last name</th>
-      <th>Nine hundred</th>
-      <th>Email</th>
-      <th>Office</th>
-      <th colspan="3"></th>
-    </tr>
+<table class="table table-striped table-hover">
+  <thead class="table-dark">
+  <tr>
+    <th>Name </th>
+    <th>900 Number </th>
+    <th>Email Address </th>
+    <th>Office </th>
+    <th colspan="3"></th>
+  </tr>
   </thead>
 
   <tbody>
-    <% @teachers.each do |teacher| %>
-      <tr>
-        <td><%= teacher.first_name %></td>
-        <td><%= teacher.last_name %></td>
-        <td><%= teacher.nine_hundred %></td>
-        <td><%= teacher.email %></td>
-        <td><%= teacher.office_id %></td>
-        <td><%= link_to 'Show', teacher %></td>
-        <td><%= link_to 'Edit', edit_teacher_path(teacher) %></td>
-        <td><%= link_to 'Destroy', teacher, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
+  <% @teachers.each do |teacher| %>
+    <tr>
+      <td><%= teacher.first_name %> <%= teacher.last_name %></td>
+      <td><%= teacher.nine_hundred %></td>
+      <td><%= teacher.email %></td>
+      <td><%= teacher.office.building_floor_room %></td>
+      <td><%= link_to 'Show', teacher, class:"btn btn-secondary"  %></td>
+      <td><%= link_to 'Edit', edit_teacher_path(teacher), class:"btn btn-secondary" %></td>
+      <td><%= link_to 'Delete', teacher, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-secondary"  %></td>
+    </tr>
+  <% end %>
   </tbody>
 </table>
 
 <br>
 
-<%= link_to 'New Teacher', new_teacher_path %>
+<%= link_to 'New Teacher', new_teacher_path, class:"btn btn-secondary" %>

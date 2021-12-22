@@ -1,3 +1,4 @@
+
 <%= form_with(model: office) do |form| %>
   <% if office.errors.any? %>
     <div id="error_explanation">
@@ -11,22 +12,23 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="field form-group">
     <%= form.label :building %>
-    <%= form.text_field :building %>
+    <%= form.text_field :building, class:"form-control" %>
   </div>
 
-  <div class="field">
+  <div class="field form-group">
     <%= form.label :floor %>
-    <%= form.text_field :floor %>
+    <%= form.text_field :floor, class:"form-control" %>
   </div>
 
-  <div class="field">
+  <div class="field form-group">
     <%= form.label :room %>
-    <%= form.text_field :room %>
+    <%= form.text_field :room, class:"form-control" %>
   </div>
 
+  <br>
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit class: 'btn btn-secondary' %>
   </div>
 <% end %>

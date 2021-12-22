@@ -1,29 +1,18 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <strong>First name:</strong>
+<h1 class="display-5 fw-bold">Teacher</h1>
+<p class="col-md-8 fs-4">
+  <strong>Name:</strong>
   <%= @teacher.first_name %>
-</p>
-
-<p>
-  <strong>Last name:</strong>
   <%= @teacher.last_name %>
-</p>
-
-<p>
-  <strong>Nine hundred:</strong>
+  <br>
+  <strong>900 Number:</strong>
   <%= @teacher.nine_hundred %>
-</p>
-
-<p>
+  <br>
   <strong>Email:</strong>
   <%= @teacher.email %>
-</p>
-
-<p>
+  <br>
   <strong>Office:</strong>
-  <%= @teacher.office_id %>
+  <%= @teacher.office.building_floor_room %>
 </p>
 
-<%= link_to 'Edit', edit_teacher_path(@teacher) %> |
-<%= link_to 'Back', teachers_path %>
+<%= link_to 'Edit', edit_teacher_path(@teacher), class:"btn btn-secondary" %>
+<%= link_to 'Back', teachers_path, class:"btn btn-secondary" %>

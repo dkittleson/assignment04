@@ -10,23 +10,24 @@
       </ul>
     </div>
   <% end %>
-
-  <div class="field">
-    <%= form.label :year %>
-    <%= form.text_field :year %>
+  <br>
+  <div class="field form-group, mb-3">
+    <% form.label :year %>
+    <%= form.text_field :year, class:"form-control", placeholder: "Year" %>
   </div>
 
-  <div class="field">
-    <%= form.label :semester %>
-    <%= form.text_field :semester %>
+  <div class="field form-group, mb-3">
+    <% form.label :semester %>
+    <%= form.text_field :semester, class:"form-control", placeholder: "Semester"%>
   </div>
 
-  <div class="field">
+  <div class="field form-check, mb-3">
     <%= form.label :course_id %>
-    <%= form.text_field :course_id %>
+    <br>
+    <%= form.collection_check_boxes :course_id, Course.all, :id, :prefix_num, class:"form-check-label" %>
   </div>
-
+  <br>
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit class: 'btn btn-secondary' %>
   </div>
 <% end %>

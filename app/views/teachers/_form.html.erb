@@ -11,32 +11,34 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="field form-group">
     <%= form.label :first_name %>
-    <%= form.text_field :first_name %>
+    <%= form.text_field :first_name, class:"form-control" %>
   </div>
 
-  <div class="field">
+  <div class="field form-group">
     <%= form.label :last_name %>
-    <%= form.text_field :last_name %>
+    <%= form.text_field :last_name, class:"form-control" %>
   </div>
 
-  <div class="field">
+  <div class="field form-group">
     <%= form.label :nine_hundred %>
-    <%= form.text_field :nine_hundred %>
+    <%= form.text_field :nine_hundred, class:"form-control" %>
   </div>
 
-  <div class="field">
+  <div class="field form-group">
     <%= form.label :email %>
-    <%= form.text_field :email %>
+    <%= form.text_field :email, class:"form-control" %>
   </div>
 
-  <div class="field">
+  <div class="field dropdown-menu, mb-3">
     <%= form.label :office_id %>
-    <%= form.text_field :office_id %>
+    <br>
+    <%= form.collection_select :office_id, Office.all, :id, (:building_floor_room), class:"btn btn-secondary dropdown-toggle" %>
   </div>
 
+  <br>
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit class: 'btn btn-secondary' %>
   </div>
 <% end %>

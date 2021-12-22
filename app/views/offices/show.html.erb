@@ -1,19 +1,15 @@
-<p id="notice"><%= notice %></p>
 
-<p>
+<h1 class="display-5 fw-bold">Office</h1>
+<p class="col-md-8 fs-4">
   <strong>Building:</strong>
   <%= @office.building %>
-</p>
-
-<p>
+  <br>
   <strong>Floor:</strong>
   <%= @office.floor %>
-</p>
-
-<p>
+  <br>
   <strong>Room:</strong>
   <%= @office.room %>
 </p>
 
-<%= link_to 'Edit', edit_office_path(@office) %> |
-<%= link_to 'Back', offices_path %>
+<%= link_to 'Edit', edit_office_path(@office), class:"btn btn-secondary" %>
+<%= link_to 'Back', offices_path, class:"btn btn-secondary" %>

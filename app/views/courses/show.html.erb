@@ -1,12 +1,10 @@
-<p id="notice"><%= notice %></p>
-
 <p>
   <strong>Prefix:</strong>
   <%= @course.prefix %>
 </p>
 
 <p>
-  <strong>Num:</strong>
+  <strong>Number:</strong>
   <%= @course.num %>
 </p>
 
@@ -15,5 +13,6 @@
   <%= @course.description %>
 </p>
 
-<%= link_to 'Edit', edit_course_path(@course) %> |
-<%= link_to 'Back', courses_path %>
+<%= link_to 'Edit', edit_course_path(@course), class:"btn btn-secondary"  %>
+<br><br>
+<%= link_to 'Back', courses_path, class:"btn btn-secondary"  %>
